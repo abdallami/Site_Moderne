@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--lier html et  css-->
+    <link rel="stylesheet" href="style.css">
+    <!--importer des icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>frist site</title>
+</head>
+<body>
+    <!----ENTET -->
+    <header>
+        <h1>Gouro</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="#services" onclick="toggleMenu();">A propos</a></li>
+                <li><a href="#Contact" onclick="toggleMenu();">Contact</a></li>
+                <li> <button>connectez-vous</button></li>
+            </ul>
+             <!----Menu toggle pour les petits ecrans-->
+            <div class="toggle">
+                <i class="fa-solid fa-bars ouvrir"></i>
+                <i class="fa-solid fa-xmark fermer"></i>
+                
+            </div>
+        </nav>
+    </header>
+    <main><!----le milieu -->
+        <section id="hero"><!----section heros-->
+            <div class="gauche">
+            <h1>Bienvenue sur Gouro</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam at esse libero sint odit, iure ab recusandae voluptates, nobis quae itaque distinctio repellendus! Vero similique beatae accusantium officiis in suscipit.</p>
+            <button>Apprendre plus</button>
+            </div>
+            <div class="droit">
+                 <img src="asset/etudiant (2).png" alt="etudiant" width="400px">
+                 <div class="effet">
+                   <div class="cercle"></div>
+                   <div class="cercle"></div>
+                   <div class="cercle"></div>
+                 </div>
+            </div>
+        </section>
+         <section id="services"><!----section service-->
+            <h2>service</h2>
+            <div class="services_liste">
+                <div class="card_service">
+                    <div class="incon">
+                    <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <h3>Service1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos praesentium fuga vel quas ipsa, totam libero inventore reiciendis, corrupti quidem ducimus non quod enim deserunt doloribus sed aut voluptates eos.</p>
+                </div>
+                <div class="card_service">
+                    <div class="incon">
+                    <i class="fa-solid fa-users-gear"></i>
+                    </div>
+                    <h3>Service1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos praesentium fuga vel quas ipsa, totam libero inventore reiciendis, corrupti quidem ducimus non quod enim deserunt doloribus sed aut voluptates eos.</p>
+                </div>
+                <div class="card_service">
+                    <div class="incon">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <h3>Service3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos praesentium fuga vel quas ipsa, totam libero inventore reiciendis, corrupti quidem ducimus non quod enim deserunt doloribus sed aut voluptates eos.</p>
+                </div>
+                <div class="card_service">
+                    <div class="incon">
+                    <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <h3>Service1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos praesentium fuga vel quas ipsa, totam libero inventore reiciendis, corrupti quidem ducimus non quod enim deserunt doloribus sed aut voluptates eos.</p>
+                </div>
+            </div>
+        </section>
+        <section id="album"><!----section album -->
+            <h2>Album</h2>
+            <div class="photo">
+                <img src="asset/avion.avif" alt="">
+                 <img src="asset/new.avif" alt="new york" >
+                 <img src="asset/avion.avif" alt="">
+
+                 <img src="asset/new.avif" alt="new york" >
+                  
+                 
+            </div>
+        </section>
+        <section id="Contact"><!----section contact -->
+            <div class="partie1">
+              <h2>Qui sommes-nous?</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem libero, pariatur porro perspiciatis impedit mollitia eius laboriosam amet. Sequi iusto ad quidem officia. Sunt incidunt eius blanditiis deserunt id quisquam!</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis distinctio facere corporis soluta iure odio sed eius?
+              </p>
+            </div>
+            <div class="partie2">
+                <h2>Contactez nous</h2>
+                <form action="">
+                    <input type="text" placeholder="Entrer votre nom "id="nom">
+                    <input type="email" placeholder="votre adress email" id="email">
+                    <textarea name="" id="text" rows="10" placeholder="votre message"></textarea>
+                    <button type="submit" id="bt3">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    <footer><!----pied -->
+        <p>tout droit reserve 2026</p>
+    </footer>
+    <div class="reseaux">
+         <!----Media reseau sociaux-->
+         <div class="carte">
+             <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="carte">
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+         <div class="carte">
+            <i class="fa-brands fa-github"></i>
+        </div>
+         <div class="carte">
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+    </main>
+    <!---lier html et  js-->
+    <script src="javascrip.js"></script>
+
+
+</body>
+</html>

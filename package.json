@@ -1,0 +1,11 @@
+{
+  "name": "html_css",
+  "version": "1.0.0",
+  "description": "Projet avec live reload",
+  "scripts": {
+    "start": "live-server --port=5500 --watch=."
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
