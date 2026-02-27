@@ -5,6 +5,12 @@ C'est un travail pratique qui regroupe les essentiels de **HTML, CSS et un peu d
 ## À propos
 
 Si tu as des difficultés avec HTML et CSS et que tu n'arrives pas encore à bien les maîtriser, ce projet est fait pour toi ! 
+## Technologies utilisées
+
+- **HTML** - Structure du site
+- **CSS** - Mise en forme et design
+- **JavaScript** - Interactivité et dynamisme
+- **Node.js** - Gestion des dépendances (package.json)
 
 ### Comment l'utiliser :
 1. **Clone** le repository
